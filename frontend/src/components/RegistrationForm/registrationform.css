@@ -1,0 +1,36 @@
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .registration-form form {
+    width: 100%;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .registration-form input[type='text'],
+  .registration-form input[type='email'],
+  .registration-form input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-register {
+    width: 100%;
+    padding: 10px;
+  }
+  
